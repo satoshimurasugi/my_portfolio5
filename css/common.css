@@ -1,0 +1,171 @@
+@charset "UTF-8";
+header{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  align-items: center;
+  position: fixed;
+  z-index: 4;
+}
+
+.title{
+  margin-right: auto;
+  margin-left: 150px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.menu-item{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  padding-right: 30px;
+}
+.menu-item a{
+  text-decoration: none;
+  color: black;
+}
+.menu-item a:hover{
+  color: #75a9ff;
+}
+.top img{
+  width: 100%;
+}
+.top{
+  position: relative;
+}
+.top h1{
+  position: absolute;
+  color: #333;
+  top: 50%;  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+ -webkit-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+ margin: 0;
+ padding: 0;
+ font-size: 40px;
+ font-family: serif;
+}
+.top p{
+  position: absolute;
+ color: #333;
+ top: 60%;
+ left: 50%;
+ -ms-transform: translate(-50%,-50%);
+ -webkit-transform: translate(-50%,-50%);
+ transform: translate(-50%,-50%);
+ margin: 0;
+ padding: 0;
+ font-size: 50px;
+ padding-top: 60px;
+ font-family: serif;
+}
+.inner{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.font1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #555;
+  margin-bottom: 60px;
+  padding-top: 38px;
+  font-family: sans-serif;
+}
+
+.font2{
+  position: absolute;
+  color: #333;
+  z-index: 3;
+  top: 1000px;
+  left: 600px;
+  font-size: 20px;
+  color: aqua;
+}
+.font3{
+ position: absolute;
+ color: #333;
+ top: 1100px;
+ z-index: 3;
+ left: 520px;
+ font-size: 24px;
+ color: aqua;
+}
+.font4{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.about_img{
+  width: 100%;
+ background-size: cover;
+ position: relative;
+ z-index: 2;
+}
+.skill_item{
+  display: flex;
+  margin-bottom: 50px;
+}
+.skill_img{
+  margin-right: 20px;
+}
+.skill_img img{
+  width: 60px;
+}
+
+.work_all{
+  display: flex;
+  flex-wrap: wrap;
+}
+.work_item{
+  flex: 32%;
+  margin-right: 2%;
+}
+
+.work_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+.work_item a img {
+  width: 100%;
+}
+.work_body p{
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+
+.contact_list{
+  display: flex; align-items: center;
+  justify-content: center;
+}
+
+.contact_list li{
+  list-style: none;
+}
+.contact_item{
+  width: 60px;
+}
+.contact_mail{
+  margin-top: 10px;
+  text-align: center;
+}
+.bottom{
+  background-color: #333;
+}
+.bottom .inner{
+  padding: 30px;
+}
+
+.copyright{
+  font-size: 13px;
+  text-align: center;color: #fff;
+}
+
+
+
